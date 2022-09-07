@@ -1,0 +1,189 @@
+{
+    "heroContent" : {
+        "title" : "Launch the Career of your dreams",
+        "description" : "ProGrad is a new-age tech school where you can master in-demand skills and launch your dream developer career.",
+        "imageSrc" : "https://cdn.prograd.org/resources/home/hero-2.png",
+        "achievements" : [ 
+            {
+                "label" : "Careers\nLaunched",
+                "value" : "3014"
+            }, 
+            {
+                "label" : "Enterprise\nPartners",
+                "value" : "500+"
+            }, 
+            {
+                "label" : "Students\nTrained",
+                "value" : "13K+"
+            }
+        ]
+    },
+    "testimonials" : {
+        "title" : "Our students <3 us",
+        "wrapperHeight1920" : "1230px",
+        "wrapperHeight1600" : "1330px",
+        "wrapperHeight1440" : "1400px",
+        "wrapperHeight1366" : "1450px",
+        "wrapperHeight1024" : "1710px",
+        "testimonials" : [ 
+            {
+                "type" : "video",
+                "src" : "https://www.youtube.com/embed/kx8S65DRXVQ",
+                "imgSrc" : "https://cdn.prograd.org/resources/home/testimonial-thumbs/amudhan_thumb.png"
+            }, 
+            {
+                "type" : "text",
+                "imgSrc" : "https://cdn.prograd.org/resources/home/testimonial-quotes/yash_testi.png",
+                "name" : "Yashasree Tummala",
+                "class" : "Class of Aug’20",
+                "text" : "...I chose to take up the Full Stack Development Program as I wanted to change my career.\nI look at myself and wonder what I have become today after this program and I also feel so proud about myself. I was also working yet took this course as a full time. I have worked for eight years in the industry and as a woman sometimes it's tough as there are multiple things to handle at once. But the schedule of the program was well-structured and perfect to be carried out...",
+                "reviewIcon" : "https://cdn.prograd.org/resources/companylogos/switchup_cmpny.png",
+                "reviewLink" : "https://www.switchup.org/bootcamps/face-prep#rev269491"
+            }, 
+            {
+                "type" : "video",
+                "src" : "https://www.youtube.com/embed/_KLfVKf_xZE",
+                "imgSrc" : "https://cdn.prograd.org/resources/home/testimonial-thumbs/ajith_thumb.png"
+            }, 
+            {
+                "type" : "text",
+                "imgSrc" : "https://cdn.prograd.org/resources/home/testimonial-quotes/punam_testi.png",
+                "name" : "Punam Shelke",
+                "class" : "Class of Sep’20",
+                "text" : "... I liked the structure of the program the most. The content of the program was so good, and the sequence of the curriculum was smooth and helped me learn better. Though we could take this course on any other platform, this is the best program that I found out to be well-structured that made the understanding very easy.\nI would definitely recommend this program to others, this is a great program. I expected Placement Season to be stressful, however with the support that I received from the mentors, it felt like a cakewalk...",
+                "reviewIcon" : "https://cdn.prograd.org/resources/companylogos/quora_cmpny.png",
+                "reviewLink" : "https://qr.ae/pNfVSm"
+            }, 
+            {
+                "type" : "video",
+                "src" : "https://www.youtube.com/embed/wx57XKEg4rE",
+                "imgSrc" : "https://cdn.prograd.org/resources/home/testimonial-thumbs/aadesh_thumb.png"
+            }, 
+            {
+                "type" : "text",
+                "imgSrc" : "https://cdn.prograd.org/resources/home/testimonial-quotes/divya_testi.png",
+                "name" : "Vidya Prabhakar",
+                "class" : "Class of Jan’20",
+                "text" : "... This is a really great platform to upskill ourselves, especially for candidates coming from a non-cs background, students or working professionals who have not studied coding before. I was basically from an electrical background, from having little knowledge with coding and technologies, I should say I have learnt a lot about everything. ProGrad brought me up to a level where I can confidently say that I can learn and work on new technology henceforth...",
+                "reviewIcon" : "https://cdn.prograd.org/resources/companylogos/CourseReport_Cmpny.png",
+                "reviewLink" : "https://www.coursereport.com/schools/face-prep?shared_review=26963#reviews"
+            }, 
+            {
+                "type" : "text",
+                "imgSrc" : "https://cdn.prograd.org/resources/home/testimonial-quotes/chrysler_testi.png",
+                "name" : "Chrysler Emmanuel",
+                "class" : "Class of Jan’21",
+                "text" : "...Once I started learning this course, I automatically developed an interest in coding and realised coding is interesting. The curriculum of the program is well-structured.\nThe placement support was also good and I would definitely recommend this program to others. I am glad that I am placed in IQVIA.t...",
+                "reviewIcon" : "https://cdn.prograd.org/resources/companylogos/CourseReport_Cmpny.png",
+                "reviewLink" : "https://www.coursereport.com/schools/face-prep?shared_review=32604#reviews"
+            }, 
+            {
+                "type" : "text",
+                "imgSrc" : "https://cdn.prograd.org/resources/home/testimonial-quotes/adi_testi.png",
+                "name" : "Adhithya Raghu",
+                "class" : "Class of Sep’20",
+                "text" : "...Though I had exposure to CSS and HTML, I started to learn JS only after this course. I am from Biotechnology, but during my Post Graduation I had started to learn Python. I had basic knowledge and I have evolved through this program.Transparency was one thing that I liked the most in this course. The mentors' support was highly commendable. We could evidently see that they have been investing genuine efforts in our growth. Overall, this has been a good experience for me...",
+                "reviewIcon" : "https://cdn.prograd.org/resources/companylogos/switchup_cmpny.png",
+                "reviewLink" : "https://www.switchup.org/bootcamps/face-prep#rev270497"
+            }
+        ]
+    },
+    "programs" : {
+        "title" : "Our programs",
+        "programsList" : [ 
+            {
+                "label" : "For Enterprises",
+                "name" : "ProGrad Talent Solutions",
+                "description" : "ProGrad Talent Solutions provides a range of dynamic services for complete IT talent management. With over 13 years of expertise in IT sourcing, training and onboarding, we have access to some of the highest quality talent in the Industry.",
+                "slug" : "enterprises"
+            }, 
+            {
+                "label" : "For Students",
+                "name" : "Corporate Sponsored Programs",
+                "description" : "We bring you the best in industry Train & Hire programs to help you enable the IT career of your dreams. Our close knit associations with some of the top IT companies allows us to find and curate the best programs for you.",
+                "slug" : "programs"
+            }
+        ]
+    },
+    "testimonial" : {
+        "imgSrc" : "https://cdn.prograd.org/resources/alumnipics/sour_cl.png",
+        "text" : "Excellent place to start your\ntech career!",
+        "author" : "Sourabh Kulkarni",
+        "authorClass" : "Class of Jul’20"
+    },
+    "companies" : {
+        "backgroundSrc" : "https://cdn.prograd.org/resources/home/companies-bg.svg",
+        "title" : "A few companies where\nour alumni work",
+        "list" : [ 
+            "https://cdn.prograd.org/resources/home/companies/amazon.png", 
+            "https://cdn.prograd.org/resources/home/companies/tcs.png", 
+            "https://cdn.prograd.org/resources/home/companies/IBM.png", 
+            "https://cdn.prograd.org/resources/home/companies/progress.png", 
+            "https://cdn.prograd.org/resources/home/companies/capgemini.png", 
+            "https://cdn.prograd.org/resources/home/companies/intel.png", 
+            "https://cdn.prograd.org/resources/home/companies/infosys.png", 
+            "https://cdn.prograd.org/resources/home/companies/nutanix.png", 
+            "https://cdn.prograd.org/resources/home/companies/thoughtworks.png", 
+            "https://cdn.prograd.org/resources/home/companies/yellowmessenger.png", 
+            "https://cdn.prograd.org/resources/home/companies/mphasis.png", 
+            "https://cdn.prograd.org/resources/home/companies/hexaware.png", 
+            "https://cdn.prograd.org/resources/home/companies/dxc.png", 
+            "https://cdn.prograd.org/resources/home/companies/mindtree.png", 
+            "https://cdn.prograd.org/resources/home/companies/quess.png", 
+            "https://cdn.prograd.org/resources/home/companies/techmahindra.png", 
+            "https://cdn.prograd.org/resources/home/companies/wipro.png", 
+            "https://cdn.prograd.org/resources/home/companies/accenture.png"
+        ]
+    },
+    "careerServices" : {
+        "title" : "We help launch awesome developer careers",
+        "stats" : [ 
+            {
+                "val" : "5.6",
+                "desc" : "Median CTC in INR Lakhs Per annum"
+            }, 
+            {
+                "val" : "7.1",
+                "desc" : "Average CTC in INR Lakhs Per annum"
+            }, 
+            {
+                "val" : "11.5",
+                "desc" : "Highest CTC in INR Lakhs Per annum"
+            }, 
+            {
+                "val" : "2.1x",
+                "desc" : "Average salary hike"
+            }
+        ],
+        "extra" : "",
+        "learnMoreLink" : "",
+        "prograds" : [ 
+            "https://cdn.prograd.org/resources/alumnipics/aadesh_sl.png", 
+            "https://cdn.prograd.org/resources/alumnipics/ajith_sl.png", 
+            "https://cdn.prograd.org/resources/alumnipics/amudhan_sl.png", 
+            "https://cdn.prograd.org/resources/alumnipics/arvinth_sl.png", 
+            "https://cdn.prograd.org/resources/alumnipics/chrys_sl.png", 
+            "https://cdn.prograd.org/resources/alumnipics/deb_sl.png", 
+            "https://cdn.prograd.org/resources/alumnipics/jash_sl.png", 
+            "https://cdn.prograd.org/resources/alumnipics/jwala_sl.png", 
+            "https://cdn.prograd.org/resources/alumnipics/satya_sl.png", 
+            "https://cdn.prograd.org/resources/alumnipics/sourab_sl.png", 
+            "https://cdn.prograd.org/resources/alumnipics/vishnu_sl.png", 
+            "https://cdn.prograd.org/resources/alumnipics/yashyashree_sl.png"
+        ]
+    },
+    "outStoryData" : {
+        "bgSrc" : "https://cdn.prograd.org/resources/home/our-story-bg.svg",
+        "title" : "Brought to you by a team with an impeccable track record",
+        "list" : [ 
+            {
+                "val" : "30,00,000+",
+                "desc" : "graduate students trained on tech skills"
+            }, 
+            {
+                "val" : "25,00,000+",
+                "desc" : "fresher careers launched in IT"
+            }
+        ]
+    }
+}

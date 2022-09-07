@@ -1,0 +1,109 @@
+
+{
+  "heading":"Terms and Conditions",
+  "Effetive From":"Effective 29th March 2021",
+  "Applicable Law 1":"This Course Agreement (hereinafter, \"Agreement\") is made by and between Focus 4-D Career Education Pvt. Ltd, a company incorporated under the Companies Act 1956, having registration number U74999TZ2009PTC014973 and GSTIN 33AABCF3266F1ZZ with registered office at No.12, Lakshmi Nagar, Thottipalayam Pirivu, Off Avinashi Road, Coimbatore-641014 hereinafter referred to as \"Course Provider,\" and you, further defined below, as a participant in the Course, also defined below.",
+  "Applicable Law 2":"All parts and sub-parts of this Agreement are specifically incorporated by reference here. This Agreement shall govern the use of all pages and screens in and on the Course (all collectively referred to as \"Course\") and any services provided by or on this Course Provider through the Course (\"Services\") and/or on the Course Provider's website (\"Website\").",
+  "Definitions": [
+    {
+      "title": "The parties referred to in this Agreement shall be defined as follows:",
+      "list": [
+        "Course Provider, us, we: Course Provider, as the creator, operator, and publisher of the Course, is responsible for providing the Course publicly. Course Provider, us, we, our, ours and other first-person pronouns will refer to the Course Provider, as well as, if applicable, all employees and affiliates of the Course Provider.",
+        "You, the user, the participant: You, as the participant in the course and user of the Website, will be referred to throughout this Agreement with second-person pronouns such as you, your, yours, or as user or participant.",
+        "Parties: Collectively, the parties to this Agreement (Course Provider and You) will be referred to as Parties."
+      ]
+    },
+    {
+      "title": "The Course details are as follows:",
+      "list": [
+        "Courses Available: ProGrad provides a variety of Coding and Development related training courses. These include but are not necessarily limited to Microdegree in Programming course and Full Stack (MERN) Development Bootcamp course",
+        "Course Fees (\"Fees\"): Course Fees are specific to the respective courses and can vary periodically. The fees at the time of student enrolment will be specified by the Admission Counsellors, who are part of the Course Provider Team, and can also be found on the respective course page listings at the time of registration.",
+        "Course Duration: Course duration and schedule depends on the respective courses and will be defined on the respective course page listings.",
+        "Course Validity: By default, all courses are valid until a year from the last date of completion of the course schedule."
+      ]
+    }
+  ],
+  "Course Details": [
+    "The Courses on our platform, unless otherwise specified, are conducted online, and are mentor led.",
+    "You will receive access to a Mentor who will assist you with code reviews, project guidance, tech support and also to provide general guidance with various aspects of the Course.",
+    "Dedicated support from the Mentor team for technical issues and programming advice will be available on the team-communication platform Slack within the Code-Help channel. Official Timings: 10 AM to 7 PM - Mondays to Sundays except on public holidays.",
+    "The training program consists of a variety of learning elements that make up the Course experience. These may include interactive lessons on the Course platform, Code Labs, Solo Projects, Live group sessions (Huddles), interaction with peers and mentors on Slack, and more. These elements are put together to form a learning experience that will help you achieve the goals of the Course.",
+    "The medium of instruction of the training program will be in English, and all Course content and modules will be in English.",
+    "The Student will receive access to an HR representative who will assist with administrative concerns, squad and placement operations, if applicable.",
+    "During the Training phase, if you are lagging behind the planned schedule, support can be provided via Code Help only. You will be required to complete the pending requirements in Self-Paced mode and catch up with the schedule to continue receiving mentor support as per original schedule."
+  ],
+  "ASSENT & ACCEPTANCE": "By purchasing and participating in the Course, you warrant that you have read and reviewed this Agreement and that you agree to be bound by it. If you do not agree to be bound by this Agreement, please cease your participation in the Course immediately. Course Provider only agrees to provide the Course to you if you assent to this Agreement.",
+  "AGE RESTRICTION": "You must be at least 16 (sixteen) years of age to use this Website, participate in the Course or access any Services contained herein. By participating in the Course, you represent and warrant that you are at least 16 years of age and may legally agree to this Agreement. Course Provider assumes no responsibility or liability for any misrepresentation of your age.",
+  "LICENSE": "We may provide you with certain information as a result of your accessing of the Course through the Website. Such information may include, but is not limited to, documentation, data, or information developed by us and other materials which may assist in your participation in the Course (\"Materials\"). Subject to this Agreement, we grant you a non-exclusive, limited, non-transferable and revocable license to use the Materials solely in connection with your participation in the Course and your use of the Website. The Materials may not be used for any other purpose, and this license terminates upon your completion of the Course, your cessation of use of the Course or the Website, or at the termination of this Agreement.",
+  "COURSE TERMS": [
+    "At the successful completion of the Course based on specified completion criteria including periodic evaluations, you will receive a certificate evidencing your participation in, and completion of, the Course.",
+    "We do not offer any promises or guarantees with regard to our Course or Course Materials."
+  ],
+  "COURSE PAUSE OPTION": {
+    "description": "The Course Pause option allows the student to pause the program to attend to any unseen emergency, and facilitates program continuation at a later convenient date.",
+    "title": "Course Pause Terms & Conditions",
+    "list": [
+        "This option can be availed once during the program.",
+        "This option can be availed for valid reasons such as college exams, health issues, etc.",
+        "To avail this option, an email request has to be sent to HR with details including the reason for availing Course Pause and period of absence.",
+        "The period of absence can be for a maximum of 3 months.",
+        "When the student wants to resume the program, he/she can choose to join a subsequent batch or resume the program in a self-paced mode. Live session recordings will be provided. Mentor support on ProGrad Slack's code-help channel will be available as before."
+      ]
+  },
+  "INTELLECTUAL PROPERTY": "You agree that the Materials, the Course, the Website, and any other Services provided by the Course Provider are the property of the Course Provider, including all copyrights, trademarks, trade secrets, patents, and other intellectual property (\"Company IP\"). You agree that the Company owns all right, title and interest in and to the Company IP and that you will not use the Company IP for any unlawful or infringing purpose. You agree not to reproduce or distribute the Company IP in any way, including electronically or via registration of any new trademarks, trade names, service marks or Uniform Resource Locators (URLs), without express written permission from the Company.",
+  "FAIR USAGE":[
+    "In accordance with the current data privacy law, your personal data will be used for operational and administrative activities held by the Course Provider for the execution of the program. You agree that the data provided to the Course Provider for the purpose of Course enrollment may be transferred to public and/or private companies described herein (Public Administrations, Companies associated with the Course Provider, etc.) with the sole purpose of complying with the specific obligations and rights covered in this relationship.",
+    "In the same way you authorize the use and reproduction of your image and the testimonials that you give the Course Provider for any type of advertising, promotion, publication or any other means, for commercial or informational purposes, without remuneration of any kind."
+  ],
+  "YOUR OBLIGATIONS" :[
+    "As a participant in the Course, you will be asked to register with us. When you do so, you will choose a user identifier, which may be your email address or another term, as well as a password. You may also provide personal information, including, but not limited to, your name. You are responsible for ensuring the accuracy of this information. This identifying information will enable you to participate in the Course. You must not share such identifying information with any third party, and if you discover that your identifying information has been compromised, you agree to notify us immediately in writing. Email notification will suffice. You are responsible for maintaining the safety and security of your identifying information as well as keeping us apprised of any changes to your identifying information.",
+    "Providing false or inaccurate information, or using the Course or the Website to further fraud or unlawful activity is grounds for immediate termination of this Agreement."
+  ],
+  "OBLIGATIONS": [
+    {
+      "title":"Attend all sessions and Course events without fail"
+    },
+    {
+      "title":"Spend the prescribed number of hours every Course day in training"
+    },
+    {
+      "title":"Submit required deliverables, assignments and projects on time"
+    },
+    {
+      "title":"Be responsive on Slack (team communication), email and call to all members of the Course team"
+    },
+    {
+      "title":"Proactively ask for support when you are facing issues:",
+      "list": [
+        "Technical concerns to be addressed on Code Help on Slack",
+        "Administrative concerns to be addressed with HR",
+        "Escalations to Technical Director"
+      ]
+    },
+    {
+      "title":"Interact with fellow squad members and the Course team with professionalism in conduct and speech"
+    }
+  ],
+  "PAYMENT & FEES": [
+    {
+      "title":"As noted above, Course Fees vary periodically. The fees at the time of student enrolment will be specified by the Admission Counsellors, who are part of the Course Provider Team."
+    },
+    {
+      "title":"If payment is not complete by the specified Course Start Date, you will forfeit your place in the Course."
+    },
+    {
+      "title":"In case of availing education loans from our partner agencies to purchase the Course, any default or delay in payment will lead to revoking of Course access."
+    },
+    {
+      "title":"If you are provided an option to pay the Course Fees in instalments, any default or delay in payment according to the instalment payment date(s) will lead to revoking of Course access."
+    },
+    {
+      "title":"All courses purchased on ProGrad are eligible for a refund at any point from the date of purchase until the last scheduled date of the course. The Course will be prorated and refunded after reducing the following",
+      "list": [
+        "Processing fee of INR 5000 fixed for all courses",
+        "Any tax-related deductions if applicable (rare case)",
+        "Any NBFC partner-related processing fees deducted if applicable" 
+      ]
+    }
+  ]
+}

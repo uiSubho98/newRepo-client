@@ -1,0 +1,51 @@
+.float-label {
+    position: relative;
+}
+
+.float-label input{
+    height: 50px;
+    font-weight: 300;
+    color: var(--carbon);
+    padding: 8px 12px 4px 12px;
+}
+
+.float-label input::placeholder {
+    color: rgba(0, 0, 0, 0);
+}
+  
+.label {
+    color: var(--granite);
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute !important;
+    pointer-events: none;
+    left: 12px;
+    transform: translateY(10%);
+    visibility: visible;
+    opacity: 1;
+    transition: transform .25s ease-in-out;
+}
+
+.label::after {
+    content: '*';
+    color: var(--tomato);
+}
+
+.float-label.hide-star .label::after {
+    content: '';
+}
+
+.label-float {
+    visibility: visible;
+    transform: translateY(-24%);
+    opacity: 1;
+}
+
+.float-label input:not(:placeholder-shown) + .label,.float-label #grade + .label,
+.float-label #college + .label {
+    font-size: 12px;
+    visibility: visible;
+    transform: translateY(-24%);
+    opacity: 1;
+}

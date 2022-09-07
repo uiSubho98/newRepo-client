@@ -1,0 +1,114 @@
+{
+    "hero_content" : {
+        "title": "Choose from the best\ndeveloper jobs",
+        "description": "Get your dream developer job with our hand-picked\nCorporate Sponsored Programs.",
+        "image": "https://cdn.prograd.org/mern-stack/mern-full-stack-developer-course.png",
+        "mob_image": "https://cdn.prograd.org/mern-stack/mern-full-stack-developer-course.svg",
+        "achievements": [
+            {
+                "label": "Careers\nLaunched",
+                "value": "3014"
+            },
+            {
+                "label": "Enterprise\nPartners",
+                "value": "500+"
+            },
+            {
+                "label": "Students\nTrained",
+                "value": "13K+"
+            }
+        ]
+    },
+    "programs": {
+        "title": "All Programs",
+        "list": [
+            {
+                "logo": "https://cdn.prograd.org/resources/programs/tandf.png",
+                "name" : "Taylor & Francis Train and Hire Program",
+                "gist" : "ProGrad in collaboration with Taylor & Francis is organizing a free Train & Hire program. This program aims to identify the best talents in India and help them to pursue fulfilling careers in tech. Apply now and get an opportunity to join Taylor & Francis as a Software Engineer!",
+                "slug": "taylor-and-francis-developer-program",
+                "status": 1
+            },
+            {
+                "logo": "https://cdn.prograd.org/resources/programs/thoughtworks.png",
+                "name" : "ThoughtWorks ProGrad PLUS Program",
+                "gist" : "ProGrad in collaboration with Thoughtworks is organizing a free Train & Hire program, designed for Women.\nThis program aims to empower women to pursue fulfilling careers in tech. Apply now and get an opportunity to join Thoughtworks as a Software Developer.",
+                "slug": "thoughtworks-developer-program",
+                "status": 1
+            },
+            {
+                "logo": "https://cdn.prograd.org/resources/programs/tl500.png",
+                "name" : "Talent500 ProGrad Hiring Program",
+                "gist" : "ProGrad in collaboration with Talent500 is looking to recruit API / Full Stack Developers. This program aims to empower developers to pursue fulfilling careers in tech. Apply now and get an opportunity to join Talent 500 as a API / Full Stack Developer!.",
+                "slug": "talent500-developer-program",
+                "status": 1
+            },
+            {
+                "logo": "https://cdn.prograd.org/resources/programs/presidio.png",
+                "name" : "ProGrad & PRESIDIO Train and Hire Program",
+                "gist" : "ProGrad in collaboration with Presidio is organizing a free Train & Hire program for Freshers. Apply now and get an opportunity to land a 5.3 LPA job as a Software Development Engineer in Presidio!",
+                "slug": "presidio-train-and-hire",
+                "status": 0
+            },
+            {
+                "logo": "https://cdn.prograd.org/resources/programs/ust.png",
+                "name" : "UST ProGrad Train & Hiring Program",
+                "gist" : "ProGrad in collaboration with UST is organizing a free Train & Hire program, designed for Women. This program aims to empower women to pursue fulfilling careers in tech. Apply now and get an opportunity to join UST as a Software Developer!",
+                "slug": "ust-developer-program",
+                "status": 0
+            }
+        ]
+    },
+    "features" : {
+        "title" : "The ProGrad Experience",
+        "list" : [ 
+            {
+                "alt" : "ProGrad Experience 1",
+                "title" : "Live code-along sessions by our expert teachers",
+                "video" : "https://cdn.prograd.org/mern-stack/mern-full-stack-developer-course-experience-1.gif"
+            }, 
+            {
+                "alt" : "ProGrad Experience 2",
+                "title" : "Guided concept-builders on our AI-powered learning platform",
+                "video" : "https://cdn.prograd.org/mern-stack/mern-full-stack-developer-course-experience-2.gif"
+            }, 
+            {
+                "alt" : "ProGrad Experience 3",
+                "title" : "Cool labs and projects that boost cognitive abilities and creativity",
+                "video" : "https://cdn.prograd.org/mern-stack/mern-full-stack-developer-course-experience-3.gif"
+            }, 
+            {
+                "alt" : "ProGrad Experience 4",
+                "title" : "Virtual Classroom for all interactions with teachers & fellow ProGrads",
+                "video" : "https://cdn.prograd.org/mern-stack/mern-full-stack-developer-course-experience-4.gif"
+            }, 
+            {
+                "alt" : "ProGrad Experience 5",
+                "title" : "Expert guidance and mentorship every day of the week",
+                "video" : "https://cdn.prograd.org/mern-stack/mern-full-stack-developer-course-experience-5.gif"
+            }
+        ]
+    },
+    "consequences" : {
+        "title" : "Why ProGrad?",
+        "pros" : [ 
+            {
+                "image" : "https://cdn.prograd.org/mern-stack/learn-mern-full-stack-development-by-doing.svg",
+                "info" : "Learn-by-doing methodology to build real coding ability"
+            }, 
+            {
+                "image" : "https://cdn.prograd.org/mern-stack/learn-mern-full-stack-development-in-small-batches.svg",
+                "info" : "Personalized attention through smaller batch-sizes"
+            }, 
+            {
+                "image" : "https://cdn.prograd.org/mern-stack/learn-mern-full-stack-development-with-prograd.svg",
+                "info" : "Unlimited access to the ProGrad community"
+            }
+        ],
+        "resume" : {
+            "before" : "https://cdn.prograd.org/resources/resume_before.png",
+            "after" : "https://cdn.prograd.org/resources/resume_after.png",
+            "description" : "This could be your resume post ProGrad!"
+        }
+    }
+}

@@ -1,0 +1,147 @@
+.value-container{
+    height: 400px;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   /* border: 1px solid red; */
+   grid-column-gap: 36px;
+   width: 1000px;
+   padding: 0px!important;
+   justify-content: space-between;
+   align-items: center;
+   /* overflow: hidden; */
+
+   
+}
+
+.first-header{
+    margin-left: 47px;
+}
+
+.card-header-value{
+    font-size: 25px;
+}
+
+.core{
+    margin-bottom: 56px;
+}
+
+.card-para{
+    color: #C4C4C4;
+    font-size: 15px;
+}
+
+.icon{
+    width: 60px;
+}
+
+.each-card{
+    margin: 0 auto;
+    /* border: 1px solid white; */
+    width: 480px;
+     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 160px;
+    color: white;
+    background: #1E1E1E;
+    border-radius: 10px;
+}
+
+.first{
+    /* border: 1px solid red; */
+    margin-left: 30px;
+}
+.value{
+    width: 400%;
+    border: 1px solid red
+}
+
+.value-para{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .first{
+        /* border: 1px solid red; */
+        margin-left: 0px;
+    }
+    
+    .card-header-value{
+        font-size: 20px;
+    }
+    
+    .core{
+        margin-bottom: 56px;
+    }
+    
+    .card-para{
+        color: #C4C4C4;
+        font-size: 14px;
+    }
+    
+    .icon{
+        width: 60px;
+    }
+
+    .core{
+        margin-bottom: 56px;
+        margin-top: 56px;
+    }
+    .each-card{
+        margin:0 auto;
+        /* border: 1px solid white; */
+        width: 352px!important;
+         display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 14px;
+        height: 140px;
+        color: white;
+        background: #1E1E1E;
+        
+    }
+    .value-container{
+        height: 700px;
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+       grid-gap: 20px;
+       /* border: 1px solid red; */
+       width: 90%;
+       margin-bottom: 120px;
+    }
+    .icon{
+        /* border: 1px solid red; */
+        margin-right: -10px;
+        margin-left: 8px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .each-card{
+        margin:0 auto;
+        /* border: 1px solid white; */
+        width: 100%!important;
+         display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 15px;
+        height: 180px;
+        color: white;
+        background: #1E1E1E;
+        
+    }
+    .value-container{
+        height: 800px;
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+       grid-gap: 20px;
+       /* border: 1px solid red; */
+       width: 98%;
+    }
+
+    .icon{
+        width: 60px;
+    }
+
+}

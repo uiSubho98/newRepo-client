@@ -1,0 +1,148 @@
+{
+    "attendanceLimit": 50,
+    "workshopContent": {
+        "heroContent": {
+            "title": "5 step guide to land a developer job in your dream product company",
+            "subtitle": "Our 5 step mantra has helped 1000s of students and working professionals land a developer job with an average CTC of 5-10 LPA in just 3 to 6 months! ",
+            "videoThumb": "https://cdn.prograd.org/Workshop/guide-to-land-a-job-promo-tn.png",
+            "videoUrl": "https://youtu.be/FYoclEePeNs",
+            "rating": 4.78,
+            "ratingCount": "(21,328+ ratings)",
+            "bookingText": "Reserve a spot for FREE"
+        },
+        "testimonials": {
+            "title": "This 1 hour could be a game changer for you too!",
+            "list": [
+                {
+                    "quote": "I wanted to move to a product developer job, and for that I was researching a lot. But this session gave a clear idea of what to learn, in what order, what projects to build to enhance my profile, and so on. Also, the job search tips on LinkedIn were very useful and I didn't know that before. Thanks a lot ProGrad for this amazing session!",
+                    "author": "Arvind S",
+                    "role": "Assistant System Engineer, TCS"
+                },
+                {
+                    "quote": "Found the session to be great. You will get to know what exactly to do to enter the world of Software and IT. It was also presented in a step by step manner so it was easy to follow. A lot of advice and guidance was given for every step. Overall it was very nice and I hope to make use of this in the future.",
+                    "author": "Pranoti Gaikwad",
+                    "role": "4th year (CSE), Government College of Engineering, Nagpur"
+                },
+                {
+                    "quote": "In this webinar, what I liked was knowing the coding languages, databases and other technologies that companies are working on. Now I understand the importance of JavaScript and how it can be used in many ways. I am now clear with what steps to take.",
+                    "author": "Karthika Murugesan",
+                    "role": "4th year (ECE), Sathyabama Institute of Science and Technology"
+                },
+                {
+                    "quote": "I found the session to be very useful. Specially the part about placements, how to approach companies for off-campus placements through LinkedIn. One more thing is now I know I can also become a software developer.",
+                    "author": "Mukesh Panchal",
+                    "role": "4th year (MECH), NBN Sinhgad School of Engineering"
+                }
+            ]
+        },
+        "learnings": {
+            "title": "What you’ll learn",
+            "subtitle": "Simply, the roadmap to your career success!",
+            "list": [
+                {
+                    "icon": "https://cdn.prograd.org/Workshop/usp1-icon.png",
+                    "title": "Modern tech recruiters’ demands",
+                    "desc": "Insights from recruiters of top MNCs/startups that’ll help you know what every recruiter looks for in a potential developer."
+                },
+                {
+                    "icon": "https://cdn.prograd.org/Workshop/usp2-icon.png",
+                    "title": "Trick to skyrocket your technical skills",
+                    "desc": "Know how and where you can pick up in-demand skills and code like a professional in just 3 months. "
+                },
+                {
+                    "icon": "https://cdn.prograd.org/Workshop/usp3-icon.png",
+                    "title": "Killer portfolio building strategy",
+                    "desc": "No more spraying and praying! Learn how to build a kick-ass portfolio that’ll get you interview calls."
+                },
+                {
+                    "icon": "https://cdn.prograd.org/Workshop/usp4-icon.png",
+                    "title": "#1 formula to land a job ",
+                    "desc": "Be it off-campus or on-campus, know how to stand out from the crowd and apply game changing job search strategies."
+                }
+            ],
+            "bookingText": "Reserve a spot for FREE"
+        },
+        "students": {
+            "title": "21,328+ aspiring developers & counting..",
+            "subtitle": "Thousands of aspiring developers (students, working professionals & tech enthusiasts) started right here, with this very webinar.",
+            "list": [
+                {
+                    "imgUrl": "https://cdn.prograd.org/Workshop/amudhan-final.png",
+                    "name": "Amudhan, Yellow Messenger",
+                    "progress": "Non Engineer to Associate Developer"
+                },
+                {
+                    "imgUrl": "https://cdn.prograd.org/Workshop/aadesh-final.png",
+                    "name": "Aadesh, Progress Software",
+                    "progress": "Service to Product based company"
+                },
+                {
+                    "imgUrl": "https://cdn.prograd.org/Workshop/yashasree-final.png",
+                    "name": "Yashasree, ThoughtWorks",
+                    "progress": "Teacher to Software Developer"
+                },
+                {
+                    "imgUrl": "https://cdn.prograd.org/Workshop/sayali-final.png",
+                    "name": "Sayali, Left Right Mind",
+                    "progress": "Graduate to Software Developer"
+                },
+                {
+                    "imgUrl": "https://cdn.prograd.org/Workshop/upendranadh-final.png",
+                    "name": "Upendranadh, Virtusa",
+                    "progress": "Service to Product based company"
+                },
+                {
+                    "imgUrl": "https://cdn.prograd.org/Workshop/nikhil-final.png",
+                    "name": "Nikhil, HCL",
+                    "progress": "Service to Product based company"
+                }
+            ]
+        },
+        "rightForYou": {
+            "title": "Still wondering if this is right for you?",
+            "subtitle": "You could be a student, working professional, stay-at-home parent or a tech enthusiast - This webinar is for everyone who’s willing to go all in for their dream developer job.",
+            "list": [
+                {
+                    "title": "Student/Graduate",
+                    "desc": "Get to know skills that matter for your dream job, learn to stand out and grab the attention of recruiters, improve your chances of landing a job by 10x times."
+                },
+                {
+                    "title": "Working Professional",
+                    "desc": "Know what it takes to make a shift from service to product-based companies, know how to increase your CTA by at least 1.5x times, get the best developer job opportunities."
+                },
+                {
+                    "title": "Tech Enthusiast",
+                    "desc": "Get to know how to master in-demand tech skills, learn to beat your competition and stand out from the crowd and get discovered by recruiters"
+                }
+            ]
+        },
+        "featuredIn": {
+            "title": "We are known to transform careers!",
+            "subtitle": "We’ve been featured in",
+            "list": [
+                "https://cdn.prograd.org/Workshop/yourstory-logo.png",
+                "https://cdn.prograd.org/Workshop/nasscom-logo.png",
+                "https://cdn.prograd.org/Workshop/economic-times-logo.png",
+                "https://cdn.prograd.org/Workshop/mhrd-logo.png"
+            ]
+        },
+        "speakers": {
+            "title": "Meet the speakers!",
+            "list": [
+                {
+                    "imgUrl": "https://cdn.prograd.org/Workshop/anton-final.png",
+                    "name": "Anton Menezes",
+                    "role": "Tech Geek & Product Manager",
+                    "linkedin": "https://www.linkedin.com/in/anton-menezes-0199572a/"
+                },
+                {
+                    "imgUrl": "https://cdn.prograd.org/Workshop/raj-final.png",
+                    "name": "Raj Karthik",
+                    "role": "CTO of two startups",
+                    "linkedin": "https://www.linkedin.com/in/rajkarthy/"
+                }
+            ],
+            "bookingText": "Reserve a spot to meet our experts!"
+        }
+    }
+}

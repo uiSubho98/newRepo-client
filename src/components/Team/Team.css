@@ -1,0 +1,240 @@
+.prograd-team{
+    /* border:1px solid red; */
+    margin-top: 120px;
+}
+
+
+
+
+
+.card {
+    width: 282px;
+    height: 370px;
+    margin: 0px;
+    float: left;
+    perspective: 500px;
+    background-color: black;
+    /* border: 1px solid red; */
+    cursor: pointer;
+  }
+  
+  .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  
+  .card:hover .content {
+    transform: rotateY( 180deg ) ;
+    transition: transform 0.8s;
+  }
+  
+  .front,
+  .back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    color: #03446A;
+    font-size: 15px;
+    backface-visibility: hidden;
+    border-radius: 5px;
+  }
+  
+  .back {
+    background: #2e2e2e;
+    color: white;
+    transform: rotateY( 180deg );
+    text-align: center;
+  }
+
+.member-msg{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin:  0 auto;
+    margin-top: 110px;
+}
+
+
+
+
+
+.team-content{
+    /* border: 1px solid red; */
+    width: 1000px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 0 auto;
+    margin-top: 56px;
+    margin-bottom: 56px;
+    font-size: 18px;
+}
+
+.designation{
+    font-size: 15px;
+}
+
+.first-row{
+    /* border: 1px solid red; */
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second-row{
+    margin-top: 40px!important;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid white; */
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.team-card{
+    margin-top: 30px;
+    width: 1000px;
+  margin: 0 auto;
+    /* border: 1px solid rgb(0, 255, 55); */
+    height: 850px;
+    margin-bottom: 352px;
+    padding: 0px;
+}
+
+.member-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin:0 auto;
+    /* border: 1px solid white; */
+    background-color:#2E2E2E;
+    ;
+    width: 280px;
+}
+
+.member-img img{
+    width: 280px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.name{
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .prograd-team{
+        /* border:1px solid red; */
+        width: 90%;
+        margin-top: 56px;
+        height: 2630px;
+    }
+    .team{
+        margin-right: 5px;
+    }
+    .team-content{
+        /* border: 1px solid red; */
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin: 0px;
+        margin-top: 56px;
+        margin-bottom: 56px;
+        font-size: 18px;
+    }
+    .first-row{
+        /* border: 1px solid red; */
+        width: 100%;
+        display: flex;
+        height: 1180px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 50px;
+        
+    }
+    
+    .second-row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        /* border: 1px solid white; */
+        width: 100%;
+        margin: 0 auto;
+        height: 775px;
+    
+    }
+    
+    .team-card{
+        margin-top: 30px;
+        width: 100%;
+      margin: 0 auto;
+        /* border: 1px solid rgb(0, 255, 55); */
+        height: 850px;
+        padding: 0px;
+       
+    }
+
+
+    .card {
+    width: 282px;
+    height: 370px;
+    margin: 0px;
+    float: left;
+    perspective: 500px;
+    background-color: black;
+    /* border: 1px solid red; */
+    cursor: pointer;
+  }
+  
+  .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  
+  .card:hover .content {
+    transform: rotateY( 180deg ) ;
+    transition: transform 0.8s;
+  }
+  
+  .front,
+  .back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    color: #000000;
+    text-align: center;
+    font-size: 15px;
+    backface-visibility: hidden;
+    border-radius: 5px;
+  }
+  
+  .back {
+    background: #2e2e2e;
+    color: white;
+    transform: rotateY( 180deg );
+    
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+   
+    
+
+}

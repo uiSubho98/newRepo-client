@@ -1,0 +1,77 @@
+{
+    "attendanceLimit": 50,
+    "workshopContent": {
+        "heroContent": {
+            "breadcrumb": "All Workshops >",
+            "title": "Some paid workshop",
+            "deliveryType": "Online - Live",
+            "bgImage": "",
+            "bookingText": "Save my seat"
+        },
+        "learnings": {
+            "title": "What you’ll learn",
+            "desc": "As the world changes rapidly, at FACE Prep we are committed to helping education institutions focus on what matters most: their students. Join us for IMAGINE: The New World of Education, a webinar series that explores the challenges and opportunities that education institutions around the world face.",
+            "topicsHeading": "Key topics covered",
+            "topics": [
+                "this is point 1",
+                "this is point 2",
+                "this is point 3"
+            ]
+        },
+        "teaser": {
+            "url": "https://www.youtube.com/watch?v=BVxvH3Qabgw",
+            "thumb": "https://via.placeholder.com/960/540"
+        },
+        "speakers": {
+            "title": "Presenters/Hosts", 
+            "list": [
+                {
+                    "imgUrl": "https://via.placeholder.com/400",
+                    "linkedin": "https://via.placeholder.com/400",
+                    "name": "Anton Menezes",
+                    "role": "Program Manager"
+                },
+                {
+                    "imgUrl": "https://via.placeholder.com/400",
+                    "linkedin": "https://via.placeholder.com/400",
+                    "name": "Anton Menezes",
+                    "role": "Program Manager"
+                },
+                {
+                    "imgUrl": "https://via.placeholder.com/400",
+                    "linkedin": "https://via.placeholder.com/400",
+                    "name": "Anton Menezes",
+                    "role": "Program Manager"
+                }
+            ]
+        },
+        "faqs": {
+            "title": "Frequently Asked Questions", 
+            "list": [
+                {
+                    "question": "How will this course be delivered?",
+                    "answer": "This is an online self-paced course with video explanation for Past Year Accenture Questions. This means that you get to consume this course at your own pace."
+                },
+                {
+                    "question": "How will this course be delivered?",
+                    "answer": "This is an online self-paced course with video explanation for Past Year Accenture Questions. This means that you get to consume this course at your own pace."
+                },
+                {
+                    "question": "How will this course be delivered?",
+                    "answer": "This is an online self-paced course with video explanation for Past Year Accenture Questions. This means that you get to consume this course at your own pace."
+                },
+                {
+                    "question": "How will this course be delivered?",
+                    "answer": "This is an online self-paced course with video explanation for Past Year Accenture Questions. This means that you get to consume this course at your own pace."
+                },
+                {
+                    "question": "How will this course be delivered?",
+                    "answer": "This is an online self-paced course with video explanation for Past Year Accenture Questions. This means that you get to consume this course at your own pace."
+                }
+            ]
+        },
+        "registerBlock": {
+            "bookingText":"Save my seat"
+        }
+    }
+}

@@ -1,0 +1,139 @@
+{
+    "hero_content" : {
+        "title": "Scale your tech\nteam with us",
+        "description": "Create an impactful team of technology experts with our\nend-to-end Talent Sourcing, Training & Onboarding Solutions",
+        "image": "https://cdn.prograd.org/resources/talent-solutions/talent-solutions.png",
+        "mob_image": "https://cdn.prograd.org/resources/talent-solutions/hero-mob.png",
+        "achievements": [
+            {
+                "label": "Careers\nLaunched",
+                "value": "3014"
+            },
+            {
+                "label": "Enterprise\nPartners",
+                "value": "500+"
+            },
+            {
+                "label": "Return on\nInvestment",
+                "value": "2.6X"
+            }
+        ]
+    },
+    "features": {
+        "title": "Why ProGrad is your one-stop talent solution?",
+        "list": [
+            {
+                "name": "Faster Turnaround Time",
+                "gist": "With ProGrad you get access to\nsome of the best talents in the\nindustry in a short turnaround\ntime averaging at about 4 weeks.",
+                "image": "https://cdn.prograd.org/resources/talent-solutions/feature-1.svg"
+            },
+            {
+                "name": "Tailor Made Solutions",
+                "gist": "Get a range of bespoke solutions for your\ntalent needs. Our customized approach\nallows us to deliver efficient, effective\nand scalable solutions.",
+                "image": "https://cdn.prograd.org/resources/talent-solutions/feature-2.svg"
+            },
+            {
+                "name": "Higher ROI",
+                "gist": "With readily deployable candidates, you\nnot only save on the cost & time of training,\nbut can generate higher revenues\nfrom day one.",
+                "image": "https://cdn.prograd.org/resources/talent-solutions/feature-3.svg"
+            },
+            {
+                "name": "Best in Industry Talent",
+                "gist": "We help you create an impactful team of\nskilled developers who can deliver speed,\nefficiency and impact across your projects.",
+                "image": "https://cdn.prograd.org/resources/talent-solutions/feature-4.svg"
+            }
+        ]
+    },
+    "testimonials" : [ 
+        {
+            "type" : "text",
+            "img_src" : "https://cdn.prograd.org/resources/career-service/playablo_recruiter.png",
+            "name" : "Ananthakrishnan G",
+            "designation" : "CTO, PlayAblo",
+            "text" : "We are extremely happy with the performance of ProGrads from a technical point of view. They have an appetite to learn new tech stacks quickly and adapt to our product engineering needs.",
+            "desc" : "But more importantly, their attitude towards work given is what we are extremely proud of. The responsibility & accountability they have shown certainly is commendable. This is something certainly that reflects throughout, and we are definitely happy with their output."
+        }, 
+        {
+            "type" : "text",
+            "img_src" : "https://cdn.prograd.org/resources/career-service/perfomatix_new.png",
+            "name" : "Manisha Narayanan",
+            "designation" : "HRD, Perfomatix",
+            "text" : "Excellent talent at ProGrad!, ProGrads that we hired, in spite of being freshers, scaled and evolved in a very short span of time and are now single-handedly manoeuvring complex projects.",
+            "desc" : "With ProGrads, the willingness to run extra miles on the topics that they aren’t aware is excellent and commendable."
+        }, 
+        {
+            "type" : "text",
+            "img_src" : "https://cdn.prograd.org/resources/career-service/letsflow_new.png",
+            "name" : "Abhilash Hebbar",
+            "designation" : "Co-Founder and Head of Engineering, Lets Flo",
+            "text" : "Recruiting ProGrads has been one of the best hiring experiences I’ve ever had. A big thanks for the support and co-operation during the entire process.",
+            "desc" : "Hoping to collaborate with ProGrad soon for another requirement."
+        }
+    ],
+    "process": {
+        "title" : "How it works?",
+        "list" : [ 
+            {
+                "id": 0,
+                "alt" : "ProGrad Experience 1",
+                "title" : "Tell us your requirement",
+                "sub_title": "Identify the problem",
+                "description" : "We understand the specifics of your needs like your talent problems, timeline expectations, and your business objectives.",
+                "img_src" : "https://cdn.prograd.org/resources/talent-solutions/step-1.png"
+            }, 
+            {
+                "id": 1,
+                "alt" : "ProGrad Experience 2",
+                "title" : "Get personalized recommendations",
+                "sub_title": "Tailor-made solutions for your needs",
+                "description": "Our talent solution experts evaluate your needs and create a customized plan that aligns with your goals and objectives.",
+                "img_src" : "https://cdn.prograd.org/resources/talent-solutions/step-2.png"
+            }, 
+            {
+                "id": 2,
+                "alt" : "ProGrad Experience 3",
+                "title" : "Finalize your talent pipeline",
+                "sub_title": "Finalize what suits you best",
+                "description": "Build a long-term hiring or training pipeline with us for your freshers and lateral talent needs",
+                "img_src" : "https://cdn.prograd.org/resources/talent-solutions/step-3.png"
+            }, 
+            {
+                "id": 3,
+                "alt" : "ProGrad Experience 4",
+                "title" : "Meet your goals",
+                "sub_title": "Reach your talent objectives",
+                "description": "Form a team of agile, flexible, and future proof developers in a record turnaround time",
+                "img_src" : "https://cdn.prograd.org/resources/talent-solutions/step-4.png"
+            }
+        ]
+    },
+    "partners": {
+        "title" : "We are the Trusted Exclusive Talent Partner for",
+        "list" : [
+            "https://cdn.prograd.org/resources/talent-solutions/partners/thw.png",
+            "https://cdn.prograd.org/resources/talent-solutions/partners/presidio.png",
+            "https://cdn.prograd.org/resources/talent-solutions/partners/yellow-ai.png",
+            "https://cdn.prograd.org/resources/talent-solutions/partners/the-math-company.png",
+            "https://cdn.prograd.org/resources/talent-solutions/partners/tandf.png",
+            "https://cdn.prograd.org/resources/talent-solutions/partners/talent500.png",
+            "https://cdn.prograd.org/resources/talent-solutions/partners/darwinbox.png",
+            "https://cdn.prograd.org/resources/talent-solutions/partners/ust.png",
+            "https://cdn.prograd.org/resources/talent-solutions/partners/progress.png",
+            "https://cdn.prograd.org/resources/talent-solutions/partners/vakil-search.png",
+            "https://cdn.prograd.org/resources/talent-solutions/partners/career-labs.png",
+            "https://cdn.prograd.org/resources/talent-solutions/partners/tata-elxsi.png",
+            "https://cdn.prograd.org/resources/talent-solutions/partners/mindtree.png",
+            "https://cdn.prograd.org/resources/talent-solutions/partners/mphasis.png",
+            "https://cdn.prograd.org/resources/talent-solutions/partners/stradegi.png",
+            "https://cdn.prograd.org/resources/talent-solutions/partners/nineleaps.png",
+            "https://cdn.prograd.org/resources/talent-solutions/partners/quess.png",
+            "https://cdn.prograd.org/resources/talent-solutions/partners/perfomatix.png",
+            "https://cdn.prograd.org/resources/talent-solutions/partners/iqvia.png",
+            "https://cdn.prograd.org/resources/talent-solutions/partners/amadeus.png",
+            "https://cdn.prograd.org/resources/talent-solutions/partners/homelane.png",
+            "https://cdn.prograd.org/resources/talent-solutions/partners/loyalytics.png",
+            "https://cdn.prograd.org/resources/talent-solutions/partners/cgi.png",
+            "https://cdn.prograd.org/resources/talent-solutions/partners/byjus.png"
+        ]
+    }
+}

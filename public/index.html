@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+
+        <link
+            rel="preload"
+            href="%PUBLIC_URL%/fonts/OpenSans-Light.ttf"
+            as="font"
+            type="font"
+            crossorigin
+        />
+
+        <link
+            rel="preload"
+            href="%PUBLIC_URL%/fonts/OpenSans-Regular.ttf"
+            as="font"
+            type="font"
+            crossorigin
+        />
+
+        <link
+            rel="preload"
+            href="%PUBLIC_URL%/fonts/OpenSans-SemiBold.ttf"
+            as="font"
+            type="font"
+            crossorigin
+        />
+        <link rel="preload" href="%PUBLIC_URL%/fonts/OpenSans-Bold.ttf" as="font" crossorigin />
+        <link
+            rel="preload"
+            href="%PUBLIC_URL%/fonts/OpenSans-ExtraBold.ttf"
+            as="font"
+            type="font"
+            crossorigin
+        />
+
+        <link rel="preload" href="%PUBLIC_URL%/fonts/FreshGrad-Line.woff" as="font" crossorigin />
+        <link rel="preload" href="%PUBLIC_URL%/fonts/FreshGrad-Line.ttf" as="font" crossorigin />
+        <link rel="preload" href="%PUBLIC_URL%/fonts/FreshGrad-Line.svg" as="image" crossorigin />
+        <link rel="preload" href="%PUBLIC_URL%/fonts/FreshGrad-Line.eot" as="font" crossorigin />
+
+        <link
+            rel="preload"
+            href="%PUBLIC_URL%/fonts/Inconsolata-Light.ttf"
+            as="font"
+            type="font"
+            crossorigin
+        />
+        <link
+            rel="preload"
+            href="%PUBLIC_URL%/fonts/Inconsolata-Regular.ttf"
+            as="font"
+            type="font"
+            crossorigin
+        />
+        <link
+            rel="preload"
+            href="%PUBLIC_URL%/fonts/Inconsolata-Medium.ttf"
+            as="font"
+            type="font"
+            crossorigin
+        />
+        <link
+            rel="preload"
+            href="%PUBLIC_URL%/fonts/Inconsolata-SemiBold.ttf"
+            as="font"
+            type="font"
+            crossorigin
+        />
+        <link
+            rel="preload"
+            href="%PUBLIC_URL%/fonts/Inconsolata-Bold.ttf"
+            as="font"
+            type="font"
+            crossorigin
+        />
+        <link
+            rel="preload"
+            href="%PUBLIC_URL%/fonts/Inconsolata-ExtraBold.ttf"
+            as="font"
+            type="font"
+            crossorigin
+        />
+        <link
+            rel="preload"
+            href="%PUBLIC_URL%/fonts/Inconsolata-Black.ttf"
+            as="font"
+            type="font"
+            crossorigin
+        />
+
+        <link rel="preload" href="%PUBLIC_URL%/fonts/Poppins-Light.otf" as="font" type="font" crossorigin />
+
+        <link rel="preload" href="%PUBLIC_URL%/fonts/Poppins-Regular.otf" as="font" type="font" crossorigin />
+    
+        <link rel="preload" href="%PUBLIC_URL%/fonts/Poppins-SemiBold.otf" as="font" type="font" crossorigin />
+        <link rel="preload" href="%PUBLIC_URL%/fonts/Poppins-Bold.otf" as="font" type="font" crossorigin />
+        <link rel="preload" href="%PUBLIC_URL%/fonts/Poppins-ExtraBold.otf" as="font" type="font" crossorigin />
+    
+        <link rel="preload" href="%PUBLIC_URL%/fonts/Poppins-Black.otf" as="font" type="font" crossorigin />
+
+        <style>
+            @font-face {
+                font-family: "OpenSans";
+                font-weight: 300;
+                src: url("%PUBLIC_URL%/fonts/OpenSans-Light.ttf");
+                font-display: swap;
+            }
+
+            @font-face {
+                font-family: "OpenSans";
+                font-weight: 400;
+                src: url("%PUBLIC_URL%/fonts/OpenSans-Regular.ttf");
+                font-display: swap;
+            }
+
+            @font-face {
+                font-family: "OpenSans";
+                font-weight: 500;
+                src: url("%PUBLIC_URL%/fonts/OpenSans-Bold.ttf");
+                font-display: swap;
+            }
+
+            @font-face {
+                font-family: "OpenSans";
+                font-weight: 700;
+                src: url("%PUBLIC_URL%/fonts/OpenSans-SemiBold.ttf");
+                font-display: swap;
+            }
+
+            @font-face {
+                font-family: "OpenSans";
+                font-weight: 800;
+                src: url("%PUBLIC_URL%/fonts/OpenSans-ExtraBold.ttf");
+                font-display: swap;
+            }
+
+            @font-face {
+                font-family: "FreshGrad-Line";
+                src: url("%PUBLIC_URL%/fonts/FreshGrad-Line.eot") format("embedded-opentype"),
+                    url("%PUBLIC_URL%/fonts/FreshGrad-Line.woff2") format("woff2"),
+                    url("%PUBLIC_URL%/fonts/FreshGrad-Line.woff") format("woff"),
+                    url("%PUBLIC_URL%/fonts/FreshGrad-Line.ttf") format("truetype"),
+                    url("%PUBLIC_URL%/fonts/FreshGrad-Line.svg") format("svg");
+                font-weight: normal;
+                font-style: normal;
+                font-display: swap;
+            }
+
+            @font-face {
+                font-family: "Inconsolata";
+                font-weight: 300;
+                src: url("%PUBLIC_URL%/fonts/Inconsolata-Light.ttf");
+                font-display: swap;
+            }
+
+            @font-face {
+                font-family: "Inconsolata";
+                font-weight: 400;
+                src: url("%PUBLIC_URL%/fonts/Inconsolata-Regular.ttf");
+                font-display: swap;
+            }
+
+            @font-face {
+                font-family: "Inconsolata";
+                font-weight: 500;
+                src: url("%PUBLIC_URL%/fonts/Inconsolata-Medium.ttf");
+                font-display: swap;
+            }
+
+            @font-face {
+                font-family: "Inconsolata";
+                font-weight: 800;
+                src: url("%PUBLIC_URL%/fonts/Inconsolata-SemiBold.ttf");
+                font-display: swap;
+            }
+
+            @font-face {
+                font-family: "Inconsolata";
+                font-weight: 900;
+                src: url("%PUBLIC_URL%/fonts/Inconsolata-ExtraBold.ttf");
+                font-display: swap;
+            }
+
+            @font-face {
+                font-family: "Poppins";
+                font-weight: 200;
+                src: url("%PUBLIC_URL%/fonts/Poppins-Light.otf");
+            }
+
+            @font-face {
+                font-family: "Poppins";
+                font-weight: 300;
+                src: url("%PUBLIC_URL%/fonts/Poppins-Regular.otf");
+            }
+
+            @font-face {
+                font-family: "Poppins";
+                font-weight: 400;
+                src: url("%PUBLIC_URL%/fonts/Poppins-SemiBold.otf");
+            }
+
+            @font-face {
+                font-family: "Poppins";
+                font-weight: 500;
+                src: url("%PUBLIC_URL%/fonts/Poppins-Bold.otf");
+            }
+
+            @font-face {
+                font-family: "Poppins";
+                font-weight: 600;
+                src: url("%PUBLIC_URL%/fonts/Poppins-ExtraBold.otf");
+            }
+
+            @font-face {
+                font-family: "Poppins";
+                font-weight: 700;
+                src: url("%PUBLIC_URL%/fonts/Poppins-Black.otf");
+            }
+        </style>
+
+        <!-- HTML Meta Tags -->
+        <title>ProGrad - A New-age Tech School</title>
+        <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <meta
+            name="description"
+            content="Learn with interactive online live coding classes, self-paced exercises on AI-powered adaptive learning platform, and our expert mentors who are just a ping away."
+        />
+        <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> -->
+        <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+        <!--
+        Notice the use of %PUBLIC_URL% in the tags above.
+        It will be replaced with the URL of the `public` folder during the build.
+        Only files inside the `public` folder can be referenced from the HTML.
+
+        Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+        work correctly both with client-side routing and a non-root public URL.
+        Learn how to configure a non-root public URL by running `npm run build`.
+        -->
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Facebook Pixel Code -->
+        <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <script>
+            
+            !(function(f, b, e, v, n, t, s) {
+                if (f.fbq) return;
+                n = f.fbq = function() {
+                    n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+                };
+                if (!f._fbq) f._fbq = n;
+                n.push = n;
+                n.loaded = !0;
+                n.version = "2.0";
+                n.queue = [];
+                t = b.createElement(e);
+                t.async = !0;
+                t.src = v;
+                s = b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t, s);
+            })(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js");
+            fbq("init", "919822422016254");
+            fbq("track", "PageView");
+        </script>
+        <noscript>
+            <img
+                height="1"
+                width="1"
+                style="display:none"
+                src="https://www.facebook.com/tr?id=919822422016254&ev=PageView&noscript=1"
+            />
+        </noscript>
+        <!-- End Facebook Pixel Code -->
+
+        <!-- Sentry -->
+        <!--        <script-->
+        <!--            src="https://browser.sentry-cdn.com/5.12.1/bundle.min.js"-->
+        <!--            integrity="sha384-y+an4eARFKvjzOivf/Z7JtMJhaN6b+lLQ5oFbBbUwZNNVir39cYtkjW1r6Xjbxg3"-->
+        <!--            crossorigin="anonymous"-->
+        <!--        ></script>-->
+        <!-- End Sentry -->
+
+        <!-- Global site tag (gtag.js) - Google Ads: 439710104 -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-218825720-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "UA-218825720-1");
+        </script>
+        <!-- End Global site tag (gtag.js) - Google Ads: 439710104 -->
+
+        <!-- Hotjar Script-->
+        <script>
+            const source = window.location.href;
+            const constraint =
+                !source.includes("admin") &&
+                !source.includes("mentor") &&
+                !source.includes("student") &&
+                !source.includes("meet.prograd.org");
+            if ("%REACT_APP_PLATFORM%" === "prod" && constraint) {
+                (function(h, o, t, j, a, r) {
+                    h.hj =
+                        h.hj ||
+                        function() {
+                            (h.hj.q = h.hj.q || []).push(arguments);
+                        };
+                    h._hjSettings = { hjid: 2156068, hjsv: 6 };
+                    a = o.getElementsByTagName("head")[0];
+                    r = o.createElement("script");
+                    r.async = 1;
+                    r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+                    a.appendChild(r);
+                })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+            }
+        </script>
+        <!-- End Hotjar Script-->
+        <!-- Microsoft Clarity Code -->
+        <script type="text/javascript">
+            if ("%REACT_APP_PLATFORM%" === "dev" || "%REACT_APP_PLATFORM%" === "prod") {
+                const clarityId = "%REACT_APP_PLATFORM%" === "prod" ? "48avmr4gx9" : "48av61yukl";
+                (function(c, l, a, r, i, t, y) {
+                    c[a] =
+                        c[a] ||
+                        function() {
+                            (c[a].q = c[a].q || []).push(arguments);
+                        };
+                    t = l.createElement(r);
+                    t.async = 1;
+                    t.src = "https://www.clarity.ms/tag/" + i;
+                    y = l.getElementsByTagName(r)[0];
+                    y.parentNode.insertBefore(t, y);
+                })(window, document, "clarity", "script", clarityId);
+            }
+        </script>
+        <!--LeadSquared Tracking Code Start-->
+        <script type="text/javascript" src="https://web-in21.mxradon.com/t/Tracker.js"></script>
+        <script type="text/javascript">
+            pidTracker("48826");
+        </script>
+        <!--LeadSquared Tracking Code End-->
+        <meta
+            name="google-site-verification"
+            content="y82ge0YN1jabKVw7OsKEilXdVRZ-Um-lL1Sfb1h9t7U"
+        />
+    </head>
+    <body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="root"></div>
+        <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    --></body>
+</html>
