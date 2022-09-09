@@ -76,6 +76,7 @@ const SignupForm = (props: SignupProps) => {
             const decodedToken = jwtDecode(data);
             const { uid, email } = decodedToken;
             const uidMask = `-${uid}-`;
+            console.log(uidMask);
             const tag = getGATag("signup_success", "subscribers", uid, 1);
             document.body.appendChild(tag);
 

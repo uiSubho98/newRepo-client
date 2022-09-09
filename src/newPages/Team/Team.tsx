@@ -17,7 +17,7 @@ const Team = () => {
             <div className="front">
             <div className="member">
                    <div className="member-img">
-                        <img src="https:/cdn.prograd.org/about_us/the_prograd_team/ram_prakash_govindarajan.jpg" alt="" />
+                        <img src="https://cdn.prograd.org/about_us/the_prograd_team/ram_prakash_govindarajan.jpg" alt="" />
                     </div>
                     <div className="member-name text-white">
                         <p className='name fw-bold'>Ram Prakash Govindarajan</p>
@@ -38,7 +38,7 @@ const Team = () => {
             <div className="front">
             <div className="member">
                    <div className="member-img">
-                        <img src="https:/cdn.prograd.org/about_us/the_prograd_team/siddharthan_panneerselvam.jpg" alt="" />
+                        <img src={`https://cdn.prograd.org/about_us/the_prograd_team/siddharthan_panneerselvam.jpg`} alt="" />
                     </div>
                     <div className="member-name text-white">
                     <p className='name fw-bold'>Siddharthan Panneerselvam</p>
@@ -58,7 +58,7 @@ const Team = () => {
             <div className="front">
             <div className="member">
                    <div className="member-img">
-                        <img src="https:/cdn.prograd.org/about_us/the_prograd_team/akarsh_agrawal.png" alt="" />
+                        <img src="https://cdn.prograd.org/about_us/the_prograd_team/akarsh_agrawal.png" alt="" />
                     </div>
                     <div className="member-name text-white">
                     <p className='name fw-bold'>Akarsh Agrawal</p>
@@ -84,7 +84,7 @@ const Team = () => {
             <div className="front">
             <div className="member">
                    <div className="member-img">
-                        <img src="https:/cdn.prograd.org/about_us/the_prograd_team/venkataraghulan_v.jpg" alt="" />
+                        <img src="https://cdn.prograd.org/about_us/the_prograd_team/venkataraghulan_v.jpg" alt="" />
                     </div>
                     <div className="member-name text-white">
                     <p className='name fw-bold'>Venkataraghulan V</p>
@@ -105,7 +105,7 @@ const Team = () => {
             <div className="front">
             <div className="member">
                    <div className="member-img">
-                        <img src="https:/cdn.prograd.org/about_us/the_prograd_team/rajesh_kumar_b.jpg" alt="" />
+                        <img src="https://cdn.prograd.org/about_us/the_prograd_team/rajesh_kumar_b.jpg"alt="" />
                     </div>
                     <div className="member-name text-white">
                     <p className='name fw-bold'>Rajesh Kumar B</p>

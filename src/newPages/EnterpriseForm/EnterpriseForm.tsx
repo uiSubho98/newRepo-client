@@ -218,19 +218,19 @@ const EnterpriseForm = () => {
                    </div>
                 </div>
                 {text1?<div className="img">
-                    <img className='img-fluid' src="https:/cdn.prograd.org/enterprises/changing_vectors/outcomes_1.png" alt="" />
+                    <img className='img-fluid' src="https://cdn.prograd.org/enterprises/changing_vectors/outcomes_1.png" alt="" />
                 </div> :""}
                 {text2?<div className="img">
-                    <img className='img-fluid' src="https:/cdn.prograd.org/enterprises/changing_vectors/outcomes_2.png" alt="" />
+                    <img className='img-fluid' src="https://cdn.prograd.org/enterprises/changing_vectors/outcomes_2.png" alt="" />
                 </div> :""}
                 {text3?<div className="img">
-                <img className='img-fluid' src="https:/cdn.prograd.org/enterprises/changing_vectors/outcomes_3.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/enterprises/changing_vectors/outcomes_3.png" alt="" />
                 </div> :""}
                 {text4?<div className="img">
-                    <img className='img-fluid' src="https:/cdn.prograd.org/enterprises/changing_vectors/outcomes_4.png" alt="" />
+                    <img className='img-fluid' src="https://cdn.prograd.org/enterprises/changing_vectors/outcomes_4.png" alt="" />
                 </div> :""}
                 {text5?<div className="img">
-                    <img className='img-fluid' src="https:/cdn.prograd.org/enterprises/changing_vectors/outcomes_5.png" alt="" />
+                    <img className='img-fluid' src="https://cdn.prograd.org/enterprises/changing_vectors/outcomes_5.png" alt="" />
                 </div> :""}
             
              </div>
@@ -444,7 +444,7 @@ const EnterpriseForm = () => {
             </div>
             </div>
             <div className="right">
-                <img className='reviewers-comp img-fluid' src="https:/cdn.prograd.org/enterprises/testimonials/playablo_testimonial.png" alt="" />
+                <img className='reviewers-comp img-fluid' src="https://cdn.prograd.org/enterprises/testimonials/playablo_testimonial.png" alt="" />
             </div>
             </div>
             <p className='rating'>Definitely happy with the output!</p>
@@ -456,7 +456,7 @@ const EnterpriseForm = () => {
             <div className='testimonial-header'>
             <div className="left">
             <div className="testimonial-img">
-                <img className='reviewers-img' src="https:/cdn.prograd.org/enterprises/testimonials/muralidharan.png" alt="" />
+                <img className='reviewers-img' src="https://cdn.prograd.org/enterprises/testimonials/muralidharan.png" alt="" />
             </div>
             <div className="testimonials-name">
                 <p className='user-name text-white'>Muralidharan C</p>
@@ -464,7 +464,7 @@ const EnterpriseForm = () => {
             </div>
             </div>
             <div className="right">
-                <img className='reviewers-comp img-fluid' src="https:/cdn.prograd.org/enterprises/testimonials/yellow_testimonial.png" alt="" />
+                <img className='reviewers-comp img-fluid' src="https://cdn.prograd.org/enterprises/testimonials/yellow_testimonial.png" alt="" />
             </div>
             </div>
             <p className='rating'>More than satisfied with ProGrad’s performance!</p>
@@ -476,7 +476,7 @@ const EnterpriseForm = () => {
             <div className='testimonial-header'>
             <div className="left">
             <div className="testimonial-img">
-                <img className='reviewers-img' src="https:/cdn.prograd.org/enterprises/testimonials/channapa.jpg" alt="" />
+                <img className='reviewers-img' src="https://cdn.prograd.org/enterprises/testimonials/channapa.jpg" alt="" />
             </div>
             <div className="testimonials-name">
                 <p className='user-name text-white'>Channapa Jagadish</p>
@@ -484,7 +484,7 @@ const EnterpriseForm = () => {
             </div>
             </div>
             <div className="right">
-                <img className='reviewers-comp img-fluid' src="https:/cdn.prograd.org/enterprises/testimonials/thoughtworks_testimonial.png" alt="" />
+                <img className='reviewers-comp img-fluid' src="https://cdn.prograd.org/enterprises/testimonials/thoughtworks_testimonial.png" alt="" />
             </div>
             </div>
             <p className='rating'>It’s been a delight to work with ProGrad!</p>
@@ -496,7 +496,7 @@ const EnterpriseForm = () => {
             <div className='testimonial-header'>
             <div className="left">
             <div className="testimonial-img">
-                <img className='reviewers-img' src="https:/cdn.prograd.org/enterprises/testimonials/peter.jpg" alt="" />
+                <img className='reviewers-img' src="https://cdn.prograd.org/enterprises/testimonials/peter.jpg" alt="" />
             </div>
             <div className="testimonials-name">
                 <p className='user-name text-white'>Peter Melbye</p>
@@ -504,7 +504,7 @@ const EnterpriseForm = () => {
             </div>
             </div>
             <div className="right">
-                <img className='reviewers-comp img-fluid' src="https:/cdn.prograd.org/enterprises/testimonials/taylor_testimonial.png" alt="" />
+                <img className='reviewers-comp img-fluid' src="https://cdn.prograd.org/enterprises/testimonials/taylor_testimonial.png" alt="" />
             </div>
             </div>
             <p className='rating'>Kudos to ProGrad team!</p>
@@ -557,76 +557,76 @@ const EnterpriseForm = () => {
              <div className="enterprise-partner-container">
              <div className="enterprise-partners">
             <div className="company-card-enterprise">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/thoughtworks.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/thoughtworks.png" alt="" />
             </div>
             <div className="company-card-enterprise">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/presidio.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/presidio.png" alt="" />
             </div>
             <div className="company-card-enterprise">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/dunzo.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/dunzo.png" alt="" />
             </div>
             <div className="company-card-enterprise">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/magicbricks.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/magicbricks.png" alt="" />
             </div>
             <div className="company-card-enterprise">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/taylor_and_friends_group.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/taylor_and_friends_group.png" alt="" />
             </div>
             <div className="company-card-enterprise">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/talent500.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/talent500.png" alt="" />
             </div>
             <div className="company-card-enterprise">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/progress.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/progress.png" alt="" />
             </div>
             <div className="company-card-enterprise">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/latent_view.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/latent_view.png" alt="" />
             </div>
             <div className="company-card-enterprise">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/career_labs.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/career_labs.png" alt="" />
             </div>
             <div className="company-card-enterprise">
-                <img className='img-fluid logo-enlarge4' src="https:/cdn.prograd.org/about_us/our_partner_brands/ivy.png" alt="" />
+                <img className='img-fluid logo-enlarge4' src="https://cdn.prograd.org/about_us/our_partner_brands/ivy.png" alt="" />
             </div>
             <div className="company-card-enterprise">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/core_stack.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/core_stack.png" alt="" />
             </div>
             <div className="company-card-enterprise">
-                <img className='img-fluid ' src="https:/cdn.prograd.org/about_us/our_partner_brands/the_math_company.png" alt="" />
+                <img className='img-fluid ' src="https://cdn.prograd.org/about_us/our_partner_brands/the_math_company.png" alt="" />
             </div>
             <div className="company-card-enterprise">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/perfomatix.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/perfomatix.png" alt="" />
             </div>
             <div className="company-card-enterprise">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/iqvia.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/iqvia.png" alt="" />
             </div>
             <div className="company-card-enterprise">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/delta.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/delta.png" alt="" />
             </div>
             <div className="company-card-enterprise">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/yellowai.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/yellowai.png" alt="" />
             </div>
             <div className="company-card-enterprise">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/loyalticsai.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/loyalticsai.png" alt="" />
             </div>
             <div className="company-card-enterprise">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/drawinbox.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/drawinbox.png" alt="" />
             </div>
             <div className="company-card-enterprise">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/espace.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/espace.png" alt="" />
             </div>
             <div className="company-card-enterprise">
-                <img className='img-fluid ' src="https:/cdn.prograd.org/about_us/our_partner_brands/ust.png" alt="" />
+                <img className='img-fluid ' src="https://cdn.prograd.org/about_us/our_partner_brands/ust.png" alt="" />
             </div>
             <div className="company-card-enterprise">
-                <img className='img-fluid ' src="https:/cdn.prograd.org/about_us/our_partner_brands/vakil_search.png" alt="" />
+                <img className='img-fluid ' src="https://cdn.prograd.org/about_us/our_partner_brands/vakil_search.png" alt="" />
             </div>
             <div className="company-card-enterprise">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/arre.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/arre.png" alt="" />
             </div>
             <div className="company-card-enterprise">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/play_ablo.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/play_ablo.png" alt="" />
             </div>
             <div className="company-card-enterprise">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/quess.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/quess.png" alt="" />
             </div>
            </div>
              </div>
@@ -727,7 +727,7 @@ const EnterpriseForm = () => {
         .enterprise-banner{
             width: 100%;
             height: 480px;
-            background-image: url("https:/cdn.prograd.org/enterprises/banner/banner.jpg");
+            background-image: url("https://cdn.prograd.org/enterprises/banner/banner.jpg");
             position:relative;
             border-top: 1px solid black;
             /* border-bottom: 1px solid red; */
@@ -1122,7 +1122,7 @@ const EnterpriseForm = () => {
             height: 540px;
             margin: 0 auto;
             /* border: 1px solid red; */
-            background-image: url("https:/cdn.prograd.org/enterprises/statistics/statistics.jpg");
+            background-image: url("https://cdn.prograd.org/enterprises/statistics/statistics.jpg");
             margin-top: 120px;
             background-size: 100% 100%;
           }
@@ -1393,7 +1393,7 @@ const EnterpriseForm = () => {
             .enterprise-banner{
                 width: 100%;
                 height: 250px;
-                background-image: url("https:/cdn.prograd.org/enterprises/banner/banner.jpg");
+                background-image: url("https://cdn.prograd.org/enterprises/banner/banner.jpg");
                 position:relative;
                 background-size: 100% 100%;
                 background-repeat: no-repeat;

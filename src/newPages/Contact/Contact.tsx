@@ -21,7 +21,7 @@ const Contact = () => {
                 margin-top: 100px;
                 width: 100%;
                 height:280px ;
-                background-image: url('https:/cdn.prograd.org/about_us/contact/contact-banner-2.jpg');
+                background-image: url('https://cdn.prograd.org/about_us/contact/contact-banner-2.jpg');
                 position: relative;
                 background-size: cover;
                 text-align: center;

@@ -14,8 +14,8 @@ interface IProps {
 
 const Program = (props: IProps) => {
 
-    const { name, gist, application_status, status, logo, slug } = props.data;
-    console.log(props)
+    const { name, gist, application_status, status, logo, slug,o_id,role_id} = props.data;
+    console.log(o_id,role_id)
     const history = useHistory();
 
     const [isLoading, setLoading] = useState(false);
@@ -55,7 +55,8 @@ const Program = (props: IProps) => {
                     console.log(err);
                 });
             } else {
-                localStorage.setItem('test', '01');
+                localStorage.setItem('test', `${o_id}`);
+                localStorage.setItem('role_id', `${role_id}`);
                 history.push({
                     pathname: "/profile",
                     state: { program_id: slug }

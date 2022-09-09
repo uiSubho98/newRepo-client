@@ -1,11 +1,19 @@
-import React, { useEffect, useState } from "react";
-import { Button, Divider, Empty, Progress, Input,DatePicker,} from "antd";
+import React, { useEffect, useState,useRef } from "react";
+import keys from "../../config/keys";
+import {__getToken} from "../../utils/user-details.util";
+import { __getCookie } from "../../utils/cookie.util";
+import { Button, Divider, Empty, Progress, Input,Radio} from "antd";
 import CompanyCard from "./CompanyCard";
 import ProjectCard from "./ProjectCard";
 import { ReactComponent as GraduationIcon } from "../../assets/icons/svg-icons-v2/graduation-hat.svg";
-import { BiCloudLightRain } from "react-icons/bi";
+import axios from "axios";
+import { G_PR_URL } from "../../constants/constants";
 
 
+
+
+// @ts-ignore
+import jwtDecode from "jwt-decode";
 
 
 
@@ -15,6 +23,24 @@ interface IProps {
     setMode: Function;
 }
 
+type Companyspq = {
+    o_id: string;
+    options: string[];
+    questionId: string;
+    questionText: string;
+    questionType: string;
+    role_id: string;
+}[];
+
+const decodeToken = () => {
+    if (__getCookie(keys.cookiePrefix + "ut").cookieExists === false) return undefined;
+    return jwtDecode(__getCookie(keys.cookiePrefix + "ut").cookieValue);
+};
+
+const __getUID = () => {
+    var decodedToken = decodeToken();
+    return decodedToken !== undefined ?(decodedToken.uid) : "";
+};
 
 
 
@@ -22,30 +48,49 @@ interface IProps {
 const { TextArea } = Input;
 
 const ProfileInfo = (props: IProps) => {
-    const [answer1,setAnswer1]= useState('');
-    const [answer2,setAnswer2]= useState('');
-    const [answer3,setAnswer3]= useState('');
-    const [answer4,setAnswer4]= useState('');
-    const [answer5,setAnswer5]= useState('');
-    const [question6,setAnswer6]= useState('');
-    const [csq,setCsq]=useState([]);
-    const [csq1,setCsq1]=useState('');
+   
+    const [multiple,setMultiple]= useState({});
+    const [subjective,setSubjective]= useState({});
+    const [csq,setCsq]=useState<Companyspq>([]);
 
     
     
     const { profile, setMode } = props;
 
-    useEffect(()=>{
-        fetch('test.json')
-        .then(res=>res.json())
-        .then(data=>setCsq(data.response))
-    },[])  
-    
-    const allQuestions=  csq.map(csqone=>console.log(csqone))
-  
-    console.log(allQuestions)
+    const org_id = localStorage.getItem('test');
+    const role_id = localStorage.getItem('role_id');
 
+    console.log(__getToken())
+    useEffect(()=>{
+        // fetch('test.json')
+        // .then(res=>res.json())
+        // .then(data=>setCsq(data.response))
     
+        axios
+      .get("https://dev.hire.prograd.org/api/roles/get/companyspq",{
+        params: {
+          o_id: org_id,
+          role_id:role_id,
+        },
+        headers: {
+          Authorization: __getToken(),
+        },
+      })
+      .then((response) => {
+       if(response.data.status === 1){
+        console.log(response)
+        setCsq(response.data.response);
+       }
+        
+      });
+    },[])  
+
+
+
+
+    //Send data to backend
+
+ 
 
     const renderCompanies = () => {
         return profile.companies.map((company:any) => 
@@ -116,16 +161,30 @@ const ProfileInfo = (props: IProps) => {
  
 
   const handleSubmit = ()=>{
-console.log(answer1)
-console.log(answer2)
-console.log(answer3)
-console.log(answer4)
-console.log(answer5)
-console.log(question6)
 
+
+   const uid =  {Std_id:__getUID()}
+
+// console.log(uid)
+// console.log(subjective)
+// console.log(multiple)
+
+
+const finalResponse = {
+    uid,multiple,subjective,org_id:org_id,role_id:role_id
+}
+
+axios.post('/user', {finalResponse})
+.then(function (response) {
+  console.log(response);
+})
+.catch(function (error) {
+  console.log(error);
+});
+
+
+console.log(finalResponse)
   }
-
-    
 
     return (
         <>
@@ -322,65 +381,37 @@ console.log(question6)
     localStorage.getItem('test')?<section id="project-experienceabc">
     <div className="mt-16">
        <form>
+
+       
         {
-         
+         csq.map((question,index)=>(
+
+            <>
+                <h3 className="font-heading text-big question">{question['questionText']}</h3>
+               
+               {
+                  question['questionType']==='MULTIPLE'? 
+                  question["options"].map((option, index1) => (
+                    <div className='me-3 options'>
+   <input  type="radio" name={"optionID"+index} value={option} id={"optionID"+index} onChange={()=>
+setMultiple((multiple)=>({
+    ...multiple,[question['questionText']]:option
+}))} />
+       <label className='label_option' htmlFor={option}>{option}</label>
+                    </div>
+                ))
+                  : 
+                 <div className='project'>
+       <Input  className="input-text" placeholder="John" onBlur={(e)=>
+setSubjective((subjective)=>({
+    ...subjective,[question['questionText']]:e.target.value
+
+}))} />
+       </div>
+               }
+            </>
+         ))
         }
-       <h3 className="font-heading text-big question">{csq1}</h3>
-       <div className='working'>
-       <div>
-       <input type="radio" name="option-1" value='yes' id="working" onChange={e=>setAnswer1(e.target.value)} />
-       <label htmlFor="Yes">Yes</label>
-       </div>
-       <div>
-       <input type="radio" name="option-1" value='no' id="working"  onChange={e=>setAnswer1(e.target.value)} />
-       <label htmlFor="No">No</label>
-       </div>
-       </div>
-       <h3 className="font-heading text-big question">Do you have any full-time offers (from campus placements / off-campus drives)?</h3>
-       <div className='working'>
-       <div>
-       <input type="radio" name="option-2" id="" value='yes' onChange={e=>setAnswer2(e.target.value)} />
-       <label htmlFor="Yes">Yes</label>
-       </div>
-       <div>
-       <input type="radio" name="option-2" value='no' id="" onChange={e=>setAnswer2(e.target.value)} />
-       <label htmlFor="No">No</label>
-       </div>
-       </div>
-       <h3 className="font-heading text-big mt-16 question">Will you be willing to relocate to Bengaluru?</h3> 
-       <div className='working'>
-       <div>
-       <input type="radio" name="option-3" value='yes' id="" onChange={e=>setAnswer3(e.target.value)} />
-       <label htmlFor="Yes">Yes</label>
-       </div>
-       <div>
-       <input type="radio" name="option-3" value='no' id="" onChange={e=>setAnswer3(e.target.value)} />
-       <label htmlFor="No">No</label>
-       </div>
-       </div>
-       <h3 className="font-heading text-big mt-16">Project Name</h3>
-       <div className='project'>
-       <Input className="input-text" placeholder="John" onChange={e=>setAnswer4(e.target.value)} />
-       </div>
-       <h3 className="font-heading text-big mt-16">Why are you willing to join Mahindra Corp.</h3>
-       <div className='question'>
-       <TextArea className="input-text" placeholder="Elucide your thought" rows={4} onChange={e=>setAnswer5(e.target.value)} />
-       </div>  
-       <h3 className="font-heading text-big">Field related to the project</h3>
-       <div className='project'>
-       <Input className="input-text" placeholder="John" onChange={e=>setAnswer6(e.target.value)} />
-       </div>
-       <div className="date">
-           <div className="left-date">
-               <h3 className="font-heading text-big mt-16">Start Date</h3>
-           <DatePicker  className="date-picker-ant" placeholder="Joining Date" />
-           </div>
-            <div className="right-date">
-            <h3 className="font-heading text-big mt-16">End Date</h3>
-           <DatePicker className="date-picker-ant" placeholder="Joining Date"   />
-           </div>
-           
-       </div>
        <div className='sub-div'>
        <button type="button" onClick={()=>{handleSubmit()}}  className='sub-btn'>Submit</button>
        </div>
@@ -388,9 +419,6 @@ console.log(question6)
    </div>
 </section> :""                 
                     }  
-
-
-
                 </div>
             </div>
            {localStorage.getItem('test')?  "": <Button className="f-d f-h-c f-v-c edit-btn"
@@ -527,6 +555,11 @@ console.log(question6)
                     font-size:20px;
                 }
 
+                .options{
+                    display:inline-block;
+                    margin-right: 55px!important;
+                }
+
                 .question-2{
                     width:100%;
                     height:135px;
@@ -534,26 +567,14 @@ console.log(question6)
                     margin-bottom:15px;
                 }
 
-                .input-text2{
-                    border:none;
-                    outline:none;
-                    width:100%;
-                    height:100%;
-                    background-color:#383838;
-                    color:#FFFFFF;
+                .label_option{
+                    font-size:20px;
                 }
 
-                .date{
-                    width:100%;
-                    height:55px;
-                    margin-top:25px;
-                    display:flex;
-                    justify-content: space-between;
-                    align-items: center;
-                }
+                
 
-                .left-date{
-                }
+                
+                
                 .ant-calendar-picker-input.ant-input {
                     border-radius: 0px;
                     height: 53px;

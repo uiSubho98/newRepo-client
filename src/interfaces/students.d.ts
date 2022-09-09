@@ -18,6 +18,8 @@ export interface IProgram {
     slug: string;
     application_status: number;
     status: number;
+    o_id: string;
+    role_id:string;
 }
 
 export interface IPrograms {

@@ -17,22 +17,23 @@ const Banner = () => {
 
    { `  .top-banner{
     width: 100%;
-    height: 342px;
+    height: 443px;
     /* border: 1px solid red; */
-    background-image: url("https:/cdn.prograd.org/about_us/banner/about_us_banner.jpg");
+    background-image: url("https://cdn.prograd.org/about_us/banner/about_us_banner.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     position: relative;
     margin-top: 82px;
+    // border: 2px solid green;
 }
 
 .banner-text{
     width:1000px;
     height: 236px;
-    /* border: 2px solid green; */
+    //  border: 2px solid green; 
     margin-top: 50px;
     margin: 0 auto;
-    top: 50px;
+    top: 100px;
     left: 0;
     right: 0;
     bottom:0;
@@ -41,7 +42,7 @@ const Banner = () => {
 }
 
 .banner-text h2{
-    font-size: 65px;
+    font-size:70px;
     letter-spacing: 2px;
     font-family: 'Inconsolata', monospace;
     font-style: normal;

@@ -133,7 +133,7 @@ const ContactPage = () => {
                 /* border: 1px solid red; */
                 height: 250px;
                 height: 100%;
-                background-image: url("https:/cdn.prograd.org/contact/gmap/gmap.jpg");
+                background-image: url("https://cdn.prograd.org/contact/gmap/gmap.jpg");
             }
             
             .map-text{

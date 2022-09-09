@@ -10,111 +10,111 @@ const Partners = () => {
            <p className='partner-txt text-center'>We trained students from more than 1500 colleges across India</p>
            <div className="colleges">
                 <div className='college-card'>
-                    <img src="https:/cdn.prograd.org/about_us/our_partner_colleges/1.png" alt="" />
+                    <img src="https://cdn.prograd.org/about_us/our_partner_colleges/1.png" alt="" />
                 </div>
 
                 <div className='college-card'>
-                    <img src="https:/cdn.prograd.org/about_us/our_partner_colleges/2.png" alt="" />
+                    <img src="https://cdn.prograd.org/about_us/our_partner_colleges/2.png" alt="" />
                 </div>
 
                 <div className='college-card'>
-                    <img src="https:/cdn.prograd.org/about_us/our_partner_colleges/3.png" alt="" />
+                    <img src="https://cdn.prograd.org/about_us/our_partner_colleges/3.png" alt="" />
                 </div>
 
                 <div className='college-card'>
-                    <img src="https:/cdn.prograd.org/about_us/our_partner_colleges/4.png" alt="" />
+                    <img src="https://cdn.prograd.org/about_us/our_partner_colleges/4.png" alt="" />
                 </div>
 
                 <div className='college-card'>
-                    <img src="https:/cdn.prograd.org/about_us/our_partner_colleges/5.png" alt="" />
+                    <img src="https://cdn.prograd.org/about_us/our_partner_colleges/5.png" alt="" />
                 </div>
 
                 <div className='college-card'>
-                    <img src="https:/cdn.prograd.org/about_us/our_partner_colleges/6.png" alt="" />
+                    <img src="https://cdn.prograd.org/about_us/our_partner_colleges/6.png" alt="" />
                 </div>
 
                 <div className='college-card'>
-                    <img src="https:/cdn.prograd.org/about_us/our_partner_colleges/7.png" alt="" />
+                    <img src="https://cdn.prograd.org/about_us/our_partner_colleges/7.png" alt="" />
                 </div>
 
                 <div className='college-card'>
-                    <img src="https:/cdn.prograd.org/about_us/our_partner_colleges/8.png"  alt="" />
+                    <img src="https://cdn.prograd.org/about_us/our_partner_colleges/8.png"  alt="" />
                 </div>
            </div>
 
            <p className='partner-txt2 text-center '>We helped them land jobs in Top IT and product companies</p>
            <div className="partners">
             <div className="company-card">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/thoughtworks.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/thoughtworks.png" alt="" />
             </div>
             <div className="company-card">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/presidio.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/presidio.png" alt="" />
             </div>
             <div className="company-card">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/dunzo.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/dunzo.png" alt="" />
             </div>
             <div className="company-card">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/magicbricks.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/magicbricks.png" alt="" />
             </div>
             <div className="company-card">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/taylor_and_friends_group.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/taylor_and_friends_group.png" alt="" />
             </div>
             <div className="company-card">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/talent500.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/talent500.png" alt="" />
             </div>
             <div className="company-card">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/progress.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/progress.png" alt="" />
             </div>
             <div className="company-card">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/latent_view.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/latent_view.png" alt="" />
             </div>
             <div className="company-card">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/career_labs.png" alt="career_labs" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/career_labs.png" alt="career_labs" />
             </div>
             <div className="company-card">
-                <img className='img-fluid logo-enlarge4' src="https:/cdn.prograd.org/about_us/our_partner_brands/ivy.png" alt="" />
+                <img className='img-fluid logo-enlarge4' src="https://cdn.prograd.org/about_us/our_partner_brands/ivy.png" alt="" />
             </div>
             <div className="company-card">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/core_stack.png" alt="core_stack" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/core_stack.png" alt="core_stack" />
             </div>
             <div className="company-card">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/the_math_company.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/the_math_company.png" alt="" />
             </div>
             <div className="company-card">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/perfomatix.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/perfomatix.png" alt="" />
             </div>
             <div className="company-card">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/iqvia.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/iqvia.png" alt="" />
             </div>
             <div className="company-card">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/delta.png" alt="delta" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/delta.png" alt="delta" />
             </div>
             <div className="company-card">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/yellowai.png" alt="yellow.ai" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/yellowai.png" alt="yellow.ai" />
             </div>
             <div className="company-card">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/loyalticsai.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/loyalticsai.png" alt="" />
             </div>
             <div className="company-card">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/drawinbox.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/drawinbox.png" alt="" />
             </div>
             <div className="company-card">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/ust.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/ust.png" alt="" />
             </div>
             <div className="company-card">
-                <img className='img-fluid ' src="https:/cdn.prograd.org/about_us/our_partner_brands/vakil_search.png" alt="" />
+                <img className='img-fluid ' src="https://cdn.prograd.org/about_us/our_partner_brands/vakil_search.png" alt="" />
             </div>
             <div className="company-card">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/espace.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/espace.png" alt="" />
             </div>
             <div className="company-card">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/arre.png" alt="arre" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/arre.png" alt="arre" />
             </div>
             <div className="company-card">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/play_ablo.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/play_ablo.png" alt="" />
             </div>
             <div className="company-card">
-                <img className='img-fluid' src="https:/cdn.prograd.org/about_us/our_partner_brands/quess.png" alt="" />
+                <img className='img-fluid' src="https://cdn.prograd.org/about_us/our_partner_brands/quess.png" alt="" />
             </div>
            </div>
         </div>

@@ -51,27 +51,27 @@ const Slider = () => {
 
         </div>
         <SwiperSlide>
-            <img className='slider-card-image' src="https:/cdn.prograd.org/about_us/slider/slider1.jpg" alt="" />
+            <img className='slider-card-image' src="https://cdn.prograd.org/about_us/slider/slider1.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-            <img className='slider-card-image' src="https:/cdn.prograd.org/about_us/slider/slider2.png" alt="" />
+            <img className='slider-card-image' src="https://cdn.prograd.org/about_us/slider/slider2.png" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-        <img className='slider-card-image' src="https:/cdn.prograd.org/about_us/slider/slider7.png" alt="" />
+        <img className='slider-card-image' src="https://cdn.prograd.org/about_us/slider/slider7.png" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-        <img className='slider-card-image' src="https:/cdn.prograd.org/about_us/slider/slider3.jpg" alt="" />
+        <img className='slider-card-image' src="https://cdn.prograd.org/about_us/slider/slider3.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-        <img className='slider-card-image' src="https:/cdn.prograd.org/about_us/slider/slider4.jpg" alt="" />
+        <img className='slider-card-image' src="https://cdn.prograd.org/about_us/slider/slider4.jpg" alt="" />
         </SwiperSlide>
 
         <SwiperSlide>
-        <img className='slider-card-image' src="https:/cdn.prograd.org/about_us/slider/slider6.jpg" alt="" />
+        <img className='slider-card-image' src="https://cdn.prograd.org/about_us/slider/slider6.jpg" alt="" />
         </SwiperSlide>
 
         <SwiperSlide className='last-image'>
-        <img className='slider-card-image'  src="https:/cdn.prograd.org/about_us/slider/slider5.jpg" alt="" />
+        <img className='slider-card-image'  src="https://cdn.prograd.org/about_us/slider/slider5.jpg" alt="" />
         </SwiperSlide>
 
         <div className='fixed-left2'>

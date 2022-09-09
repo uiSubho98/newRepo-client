@@ -22,7 +22,7 @@ const JoinUs = () => {
     margin-top: 56px;
     width: 100%;
     height:280px ;
-    background-image: url(https:/cdn.prograd.org/about_us/join_us/join_us.jpg);
+    background-image: url(https://cdn.prograd.org/about_us/join_us/join_us.jpg);
     position: relative;
     /* border: 1px solid red; */
     text-align: center;
@@ -32,7 +32,7 @@ const JoinUs = () => {
         margin-top: 56px;
         width: 100%;
         height:200px ;
-        background-image: url(https:/cdn.prograd.org/about_us/join_us/join_us.jpg);
+        background-image: url(https://cdn.prograd.org/about_us/join_us/join_us.jpg);
         position: relative;
         /* border: 1px solid red; */
         background-repeat: no-repeat;
